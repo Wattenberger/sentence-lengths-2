@@ -1,0 +1,13 @@
+:root {
+  --font-body: 'Libre Baskerville', serif;
+  --font-headline: 'Playfair Display', serif;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1 {
+  font-family: var(--font-headline);
+}
+

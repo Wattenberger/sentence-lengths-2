@@ -1,0 +1,35 @@
+@import url('https://rsms.me/inter/inter.css');
+:root {
+  --font-body: 'Inter', sans-serif;
+  --font-serif: 'Libre Baskerville', serif;
+  --font-headline: 'Playfair Display', serif;
+}
+
+body {
+  font-family: var(--font-body);
+  color: #191a2d;
+  line-height: 1.6em;
+}
+
+h1 {
+  font-family: var(--font-headline);
+  font-size: 3em;
+  line-height: 1.3em;
+  margin: 0.5em 0;
+}
+
+h6 {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  margin-bottom: 0.3em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+button {
+  font-family: var(--font-body);
+}
